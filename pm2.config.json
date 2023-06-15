@@ -1,0 +1,23 @@
+{
+  "apps": [
+    {
+      "name": "pm2api",
+      "script": "cd pm2api && yarn dev",
+      "instances": "1",
+      "watch": true,
+      "ignore_watch": [
+        "pm2api/node_modules",
+        "pm2api/__tests__"
+      ],
+      "watch_options": {
+        "usePolling": true
+      },
+      "env": {
+        "PORT": 9018,
+        "HOST": "172.37.0.7",
+        "NODE_ENV": "dev"
+      }
+    }
+  ]
+}
+  

@@ -1,0 +1,7 @@
+/.idea
+/.vscode
+
+/pm2api/build
+/pm2api/node_modules
+/pm2api/npm-debug.log
+/pm2api/yarn.lock

@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "types": [
+      "node",
+      "jest"
+    ],
+    "allowJs": true
+  },
+  "include": [
+    "src/**/**.js",
+    "src/**/**.ts",
+    "__tests__/**/**.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}

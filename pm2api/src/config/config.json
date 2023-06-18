@@ -1,0 +1,23 @@
+{
+  "application": {
+    "environment": "@@APP_ENVIRONMENT@@",
+    "host": "@@APP_HOST@@",
+    "port": "@@APP_PORT@@",
+    "database": {
+      "local": {
+        "host": "@@LOCAL_DATABASE_HOST@@",
+        "port": "@@LOCAL_DATABASE_PORT@@",
+        "name": "@@LOCAL_DATABASE_NAME@@",
+        "user": "@@LOCAL_DATABASE_USER@@",
+        "pass": "@@LOCAL_DATABASE_PASS@@"
+      }
+    },
+    "ai": {
+      "openAI": {
+        "baseURL": "@@OPEN_AI_URL@@",
+        "apiKey": "@@OPEN_AI_USER_KEY@@",
+        "organizationKey": "@@OPEN_AI_ORGANIZATION_KEY@@"
+      }
+    }
+  }
+}

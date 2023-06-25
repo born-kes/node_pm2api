@@ -1,13 +1,10 @@
-# RestAPI Proxy OpenAI
-
-
-[--> CHANGELOG](./CHANGELOG.md) <br>
-[--> doc/CONVENTIONS.md](./doc/CONVENTIONS.md) <br>
-[--> doc/STATUS_CODE.md](./doc/STATUS_CODE.md) <br>
-[--> doc/ADRS](./doc/adrs) <br>
+[--> CHANGELOG](/CHANGELOG.md) <br>
+[--> doc/CONVENTIONS.md](/doc/CONVENTIONS.md) <br>
+[--> doc/STATUS_CODE.md](/doc/STATUS_CODE.md) <br>
+[--> doc/ADRS](/doc/adrs) <br>
 
 ---
-
+# RestAPI Proxy OpenAI
 
 ## TECHNOLOGIES
 
@@ -158,11 +155,11 @@ Jeśli odpalasz testy w IDE, pamiętaj by ustawić node z dockera, a nie lokalne
 
 ## Konwencja nazewnicza
 
-[Link do CONVENTIONS.md](./pm2api/doc/CONVENTIONS.md)
+[Link do CONVENTIONS.md](/doc/CONVENTIONS.md)
 
 ## Error Code
 
-[Link do STATUS_CODE.md](./pm2api/doc/STATUS_CODE.md)
+[Link do STATUS_CODE.md](/doc/STATUS_CODE.md)
 
 
 </details>

@@ -4,10 +4,13 @@ import routes from './routes';
 
 import { IConfig } from './interfaces/IConfig';
 import { swagger } from './plugins/swagger';
+import { openAiApi } from './plugins/openAiApi';
+import { OpenAI } from 'openai';
 
 declare module '@hapi/hapi' {
   interface ServerApplicationState {
     config: IConfig;
+    openAiApi: OpenAI;
   }
 }
 const { application }: IConfig = configResolver();
@@ -26,6 +29,7 @@ const Server = async (): Promise<Hapi.Server> => {
     },
   });
   await swagger(server);
+  await openAiApi(server);
   routes(server);
 
   return server;
